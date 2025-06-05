@@ -69,15 +69,9 @@ const Layout = ({ children }: LayoutProps) => {
             fontSize={["sm", "md"]}
           >
             © 2025 BINI Song Ranking. This is a fan-made project and is not affiliated with BINI, Star Music, or ABS-CBN.
-            {" "}
-            <Link 
-              href="https://buymeacoffee.com/" 
-              isExternal 
-              color="teal.400"
-              ml={2}
-            >
+            <a href="https://buymeacoffee.com/" target="_blank" rel="noopener noreferrer" style="color: teal; margin-left: 8px;">
               Buy me a coffee ☕
-            </Link>
+            </a>
           </Text>
         </Container>
       </Box>
